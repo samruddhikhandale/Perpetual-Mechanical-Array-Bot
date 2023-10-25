@@ -12,42 +12,42 @@
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
 
-  "forwardPorts": [5901, 6080],
-  "initializeCommand": [".devcontainer/export-keys"],
-  "onCreateCommand": "sudo npm install",
-  "postCreateCommand": "sudo bash .devcontainer/import-keys.sh",
+  "forwardPorts": [5901, 6080]
+  // "initializeCommand": [".devcontainer/export-keys"],
+  // "onCreateCommand": "sudo npm install",
+  // "postCreateCommand": "sudo bash .devcontainer/import-keys.sh",
 
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "christian-kohler.npm-intellisense",
-        "christian-kohler.path-intellisense",
-        "cschlosser.doxdocgen",
-        "DavidAnson.vscode-markdownlint",
-        "dbaeumer.vscode-eslint",
-        "dotenv.dotenv-vscode",
-        "eamodio.gitlens",
-        "EditorConfig.EditorConfig",
-        "esbenp.prettier-vscode",
-        "evondev.indent-rainbow-palettes",
-        "exiasr.hadolint",
-        "foxundermoon.shell-format",
-        "idered.npm",
-        "kamikillerto.vscode-colorize",
-        "MichaelCurrin.auto-commit-msg",
-        "ms-azuretools.vscode-docker",
-        "oderwat.indent-rainbow",
-        "p42ai.refactor",
-        "Phu1237.vs-browser",
-        "redhat.vscode-yaml",
-        "ryanlaws.toggle-case",
-        "softwaredotcom.swdc-vscode",
-        "sohamkamani.code-eol",
-        "spmeesseman.vscode-taskexplorer",
-        "streetsidesoftware.code-spell-checker",
-        "usernamehw.errorlens",
-        "wdhongtw.gpg-indicator"
-      ]
-    }
-  }
+  // "customizations": {
+  //   "vscode": {
+  //     "extensions": [
+  //       "christian-kohler.npm-intellisense",
+  //       "christian-kohler.path-intellisense",
+  //       "cschlosser.doxdocgen",
+  //       "DavidAnson.vscode-markdownlint",
+  //       "dbaeumer.vscode-eslint",
+  //       "dotenv.dotenv-vscode",
+  //       "eamodio.gitlens",
+  //       "EditorConfig.EditorConfig",
+  //       "esbenp.prettier-vscode",
+  //       "evondev.indent-rainbow-palettes",
+  //       "exiasr.hadolint",
+  //       "foxundermoon.shell-format",
+  //       "idered.npm",
+  //       "kamikillerto.vscode-colorize",
+  //       "MichaelCurrin.auto-commit-msg",
+  //       "ms-azuretools.vscode-docker",
+  //       "oderwat.indent-rainbow",
+  //       "p42ai.refactor",
+  //       "Phu1237.vs-browser",
+  //       "redhat.vscode-yaml",
+  //       "ryanlaws.toggle-case",
+  //       "softwaredotcom.swdc-vscode",
+  //       "sohamkamani.code-eol",
+  //       "spmeesseman.vscode-taskexplorer",
+  //       "streetsidesoftware.code-spell-checker",
+  //       "usernamehw.errorlens",
+  //       "wdhongtw.gpg-indicator"
+  //     ]
+  //   }
+  // }
 }
