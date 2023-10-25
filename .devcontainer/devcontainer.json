@@ -12,9 +12,9 @@
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
 
-  "forwardPorts": [5901, 6080]
+  "forwardPorts": [5901, 6080],
   // "initializeCommand": [".devcontainer/export-keys"],
-  // "onCreateCommand": "sudo npm install",
+  "onCreateCommand": " npm install"
   // "postCreateCommand": "sudo bash .devcontainer/import-keys.sh",
 
   // "customizations": {
